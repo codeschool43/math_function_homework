@@ -11,7 +11,7 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v2
         with:
-          repository:codeschool43/math_function_test
+          repository: codeschool43/math_function_test
           path: test
       - name: Install dependencies
         uses: actions/setup-python@v2
